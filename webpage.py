@@ -11,7 +11,7 @@ def create_main_view(page: ft.Page, on_submit):
         expand=True,
         border_color=ft.colors.TRANSPARENT,
         border_width=0,
-        hint_text="Please enter text here",
+        hint_text="Please paste news source here ",
         max_lines=10,
         text_style=ft.TextStyle(color=ft.colors.BLACK)
     )
